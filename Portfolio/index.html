@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap requirements -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <link href="css/style.css " rel="stylesheet">
+
+    <title>Oscar Masse - Portfolio</title>
+</head>
+<body>
+
+<div id="portfolio" class="carousel slide" data-wrap="false" data-interval="false">
+    <ol class="carousel-indicators">
+        <li data-target="#portfolio" data-slide-to="0" class="active"></li>
+        <li data-target="#portfolio" data-slide-to="1"></li>
+        <li data-target="#portfolio" data-slide-to="2"></li>
+        <li data-target="#portfolio" data-slide-to="3"></li>
+        <li data-target="#portfolio" data-slide-to="4"></li>
+        <li data-target="#portfolio" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+
+        <!-- ABOUT ME -->
+        <div class="carousel-item active">
+            <div class="about-me">
+                <div class="picture"><img alt="Oscar Masse" class="rounded-circle" width="200px" src="photo.png"></div>
+                <div class="title">Oscar Masse</div>
+                <div class="subtitle">Engineering student - Game Developer in the making!</div>
+                <div class="text">
+                    <p>I am a French <b>engineering student</b> who's passionate about computer sciences, music, gaming
+                        and eSport.
+                        I love personal development, which pushes me to improve everyday.
+                        I really want to integrate the <b>video games industry</b>. On of my biggest sources of
+                        inspiration is <i>Hideo
+                            Kojima</i>.
+                        <br>
+                        This is my last year studying, therefore, I am looking for a <b>6-month internship</b>.
+                    </p></div>
+                <div class="contact-me">
+                    <p><b>CONTACT ME</b>
+                        <br>
+                        <a href="mailto:oscar@masse.pro">oscar@masse.pro</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/oscarmasse/">linkedin</a>
+                        <br>
+                        <a href="https://oscar.masse.pro/Oscar_MASSE_CV_en.pdf">résumé</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRAVITY CUBE -->
+        <div class="carousel-item">
+                <div class="illustration">
+                    <video src="gravitycube.mp4" autoplay muted loop></video>
+                </div>
+                <div class="description">
+                    <div class="title">Gravity Cube</div>
+                    <div class="tags">
+                        <kbd style="background-color: #161616">Unity</kbd>
+                        <kbd style="background-color: #6f42c1">GameDev</kbd>
+                        <kbd style="background-color: #fd7e14">GameJam</kbd>
+                        <kbd style="background-color:#05930c">C#</kbd></div> <!-- light: 1e9e25 / dark: 05930c -->
+                    <div class="text">
+                        <p> This is the first game I ever made with Unity! It was made during a 48h solo game jam. You
+                            can try
+                            it <a href="http://omasse.rezoleo.fr" target="_blank">here</a>!
+                            The days that followed, I created a database to store players high scores and a <a
+                                    href="http://omasse.rezoleo.fr" target="_blank">website</a> to display it.
+                            The goal of the game is to protect the cube by destroying incoming asteroids with the three
+                            rotating
+                            comets.
+                            The game has been thought of as a mobile game, so the controls are very easy: the player can
+                            vary
+                            the comets' radius of rotation by touching the screen.
+                            Easy controls, but challenging gameplay nonetheless!
+                        </p></div>
+                    <div class="links"><a href="https://github.com/SynedDay/Mini-RayTracer/" target="_blank">GitHub</a>
+                    </div>
+                </div>
+        </div>
+
+        <!-- TODOLIST APPLICATION -->
+        <div class="carousel-item">
+            <div class="illustration">
+                <video src="todolist_app.mp4" autoplay muted loop></video>
+            </div>
+            <div class="description">
+                <div class="title">ToDoList Application</div>
+                <div class="tags">
+                    <kbd style="background-color: #008577">Android</kbd>
+                    <kbd style="background-color:#d60102">Java</kbd></div>
+                <div class="text">
+                    <p> This is a study project where I created a ToDoList Application with Android Studio.
+                    </p></div>
+                <div class="links"><a href="https://github.com/SynedDay/Mini-RayTracer/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABIDING GAME JAM -->
+        <div class="carousel-item">
+            <div class="illustration">
+                <video src="abiding_gamejam.mp4" autoplay muted loop></video>
+            </div>
+            <div class="description">
+                <div class="title">Abiding Game Jam</div>
+                <div class="tags">
+                    <kbd style="background-color: #161616">Unity</kbd>
+                    <kbd style="background-color: #6f42c1">GameDev</kbd>
+                    <kbd style="background-color: #fd7e14">GameJam</kbd>
+                    <kbd style="background-color:#1e9e25">C#</kbd></div>
+                <div class="text">
+                    <p> It was a game made during a small game jam, called Abiding Game Jam with people of the startup
+                        incubator <a href="https://www.plaine-images.fr/en/" target="_blank">Plaine Images</a>.
+                        I was the game developer of a team of three. I worked with a game designer and a graphic artist.
+                        The theme was “the nonviolent communication” and we chose to create a game using player empathy
+                        in
+                        order to help snails find their appropriate shell, based on their personality.
+                    </p></div>
+                <div class="links"><a href="https://github.com/SynedDay/Mini-RayTracer/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- MINI RAY-TRACER -->
+        <div class="carousel-item">
+            <div class="illustration">
+                <img src="mini-raytracer.png" alt="Mini-RayTracer">
+            </div>
+            <div class="description">
+                <div class="title">Mini-RayTracer</div>
+                <div class="tags">
+                    <kbd style="background-color: #4e555b">Technical</kbd>
+                    <kbd style="background-color:#005cbf">Rendering</kbd>
+                    <kbd style="background-color:#d60102">Java</kbd></div>
+                <div class="text">
+                    <p> This is a study project where I recreated a raytracer from scratch, in java.
+                        <br>
+                        <br>
+                        <i>CURRENTLY IN DEVELOPMENT.</i>
+                    </p></div>
+                <div class="links"><a href="https://github.com/SynedDay/Mini-RayTracer/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- JAVA 2D GAME ENGINE -->
+        <div class="carousel-item">
+            <div class="illustration">
+                <video src="2DjavaGE.mp4" autoplay muted loop></video>
+            </div>
+            <div class="description">
+                <div class="title">Java 2D Game Engine</div>
+                <div class="tags">
+                    <kbd style="background-color: #4e555b">Technical</kbd>
+                    <kbd style="background-color:#d60102">Java</kbd></div>
+                <div class="text">
+                    <p> The goal of this project was to use LWJGL to recreate a very basic game engine, understanding
+                        the
+                        core of a game engine: game loop, physical engine, rendering, …
+                    </p></div>
+                <div class="links"><a href="https://github.com/SynedDay/OBJET/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <a class="carousel-control-prev" href="#portfolio" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#portfolio" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+</body>
+</html>
